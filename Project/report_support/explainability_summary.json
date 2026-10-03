@@ -1,0 +1,61 @@
+{
+  "strongest_candidate": "Random Forest",
+  "validation_scores": [
+    {
+      "name": "Logistic Regression",
+      "macro_f1": 0.7966536242173945
+    },
+    {
+      "name": "Random Forest",
+      "macro_f1": 0.9985833603023184
+    },
+    {
+      "name": "XGBoost",
+      "macro_f1": 0.9967317340321796
+    }
+  ],
+  "shap_status": "SUCCEEDED",
+  "top_shap_features": [
+    {
+      "feature": "Dst_Port",
+      "mean_abs_shap": 0.29004277904973774
+    },
+    {
+      "feature": "Init_Bwd_Win_Byts",
+      "mean_abs_shap": 0.09581304852246905
+    },
+    {
+      "feature": "Src_Port",
+      "mean_abs_shap": 0.057590998999815166
+    },
+    {
+      "feature": "Flow_Duration",
+      "mean_abs_shap": 0.03828503400508015
+    },
+    {
+      "feature": "ACK_Flag_Cnt",
+      "mean_abs_shap": 0.021213800111536375
+    },
+    {
+      "feature": "Bwd_IAT_Std",
+      "mean_abs_shap": 0.01696884589866468
+    },
+    {
+      "feature": "Idle_Mean",
+      "mean_abs_shap": 0.0056680311927871695
+    },
+    {
+      "feature": "Flow_Pkts/s",
+      "mean_abs_shap": 0.003599755318123862
+    },
+    {
+      "feature": "Flow_IAT_Mean",
+      "mean_abs_shap": 0.0019796948971536007
+    },
+    {
+      "feature": "Flow_IAT_Max",
+      "mean_abs_shap": 0.0013588468882843117
+    }
+  ],
+  "sample_size": 3000
+}

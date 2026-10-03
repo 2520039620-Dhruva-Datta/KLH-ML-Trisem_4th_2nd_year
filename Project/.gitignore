@@ -1,0 +1,26 @@
+# Environments
+.MLvenv/
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large raw data (kept locally, not versioned)
+data/*.csv
+!data/outputs/
+!data/preprocessing_outputs/
+
+# Temporary / cache artifacts produced while building the project
+data/preprocessing_outputs/_dev_*

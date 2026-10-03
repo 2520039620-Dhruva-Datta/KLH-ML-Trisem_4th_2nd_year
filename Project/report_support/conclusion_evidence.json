@@ -1,0 +1,22 @@
+{
+  "winning_model": "Random Forest",
+  "final_test_macro_f1": 0.9978025872762715,
+  "final_test_roc_auc": 0.9995973281344334,
+  "final_test_pr_auc": 0.9999273321347428,
+  "winning_model_feature_count": 10,
+  "total_available_features": 72,
+  "feature_reduction_percentage": 86.1,
+  "winning_model_size_mb": 16.158,
+  "runner_up_model": "XGBoost",
+  "runner_up_macro_f1": 0.995969592469714,
+  "runner_up_model_size_mb": 0.921,
+  "shap_status": "SUCCEEDED",
+  "top_explainability_features": [
+    "Dst_Port",
+    "Init_Bwd_Win_Byts",
+    "Src_Port",
+    "Flow_Duration",
+    "ACK_Flag_Cnt"
+  ],
+  "limitations_file": "report_support/limitations.md"
+}

@@ -1,0 +1,65 @@
+{
+  "raw_rows": 625783,
+  "raw_columns": 86,
+  "ordinary_missing_values": 0,
+  "infinite_values_raw": 736,
+  "infinite_value_columns": {
+    "Flow_Byts/s": 368,
+    "Flow_Pkts/s": 368
+  },
+  "malformed_value_columns": {
+    "Dst_Port": {
+      "dtype_before": "str",
+      "malformed_values": [
+        "19 00"
+      ]
+    }
+  },
+  "duplicate_rows": 164087,
+  "duplicate_percentage": 26.2211,
+  "rows_after_dedup": 461696,
+  "target_column": "Label",
+  "target_mapping": {
+    "Normal": 0,
+    "Anomaly": 1
+  },
+  "label_counts": {
+    "Anomaly": 585710,
+    "Normal": 40073
+  },
+  "label_percentages": {
+    "Anomaly": 93.5963,
+    "Normal": 6.4037
+  },
+  "candidate_predictor_count": 79,
+  "constant_features": [
+    "Bwd_Byts/b_Avg",
+    "Fwd_Blk_Rate_Avg",
+    "Bwd_Pkts/b_Avg",
+    "Bwd_Blk_Rate_Avg",
+    "Fwd_Pkts/b_Avg",
+    "Fwd_Byts/b_Avg",
+    "Fwd_URG_Flags",
+    "Fwd_PSH_Flags",
+    "Fwd_Seg_Size_Min",
+    "Init_Fwd_Win_Byts"
+  ],
+  "near_constant_features": [
+    "Bwd_URG_Flags",
+    "CWE_Flag_Count",
+    "ECE_Flag_Cnt",
+    "FIN_Flag_Cnt",
+    "RST_Flag_Cnt",
+    "URG_Flag_Cnt"
+  ],
+  "excluded_columns_and_reasons": {
+    "Label": "Prediction target itself.",
+    "Cat": "Alternative/finer target \u2014 only knowable once a flow is already known to be anomalous; using it as a predictor would leak the answer.",
+    "Sub_Cat": "Same leakage reason as Cat, at finer granularity.",
+    "Flow_ID": "High-cardinality identifier \u2014 risks memorization instead of learning general traffic behaviour.",
+    "Src_IP": "High-cardinality identifier \u2014 same memorization risk.",
+    "Dst_IP": "High-cardinality identifier \u2014 same memorization risk.",
+    "Timestamp": "Raw timestamp identifier \u2014 risks memorizing specific capture windows instead of learning generalizable attack behaviour."
+  },
+  "numeric_column_count_raw": 78
+}

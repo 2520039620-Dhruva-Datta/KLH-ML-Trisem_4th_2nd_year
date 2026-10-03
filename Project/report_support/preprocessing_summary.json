@@ -1,0 +1,58 @@
+{
+  "raw_rows_before_dedup": 625783,
+  "rows_after_dedup": 461696,
+  "duplicates_removed": 164087,
+  "target_mapping": {
+    "Normal": 0,
+    "Anomaly": 1
+  },
+  "excluded_columns": [
+    "Label",
+    "Cat",
+    "Sub_Cat",
+    "Flow_ID",
+    "Src_IP",
+    "Dst_IP",
+    "Timestamp"
+  ],
+  "train_rows": 295484,
+  "validation_rows": 73872,
+  "test_rows": 92340,
+  "numeric_feature_count_raw": 79,
+  "categorical_feature_count_raw": 0,
+  "constant_columns_removed": [
+    "Fwd_PSH_Flags",
+    "Fwd_URG_Flags",
+    "Fwd_Byts/b_Avg",
+    "Fwd_Pkts/b_Avg",
+    "Fwd_Blk_Rate_Avg",
+    "Bwd_Byts/b_Avg",
+    "Bwd_Pkts/b_Avg",
+    "Bwd_Blk_Rate_Avg",
+    "Init_Fwd_Win_Byts",
+    "Fwd_Seg_Size_Min"
+  ],
+  "missing_indicator_columns": [
+    "Dst_Port",
+    "Flow_Byts/s",
+    "Flow_Pkts/s"
+  ],
+  "missing_values_in_train_after_infinity_conversion": 379,
+  "imputation_method": "SimpleImputer(strategy='median'), fit on X_train only",
+  "encoding_method": "None required \u2014 every remaining predictor is numeric (verified in notebook 01)",
+  "scaling_method": "StandardScaler, fit on X_train only",
+  "final_feature_count_scaled": 72,
+  "final_feature_count_tree": 72,
+  "train_class_distribution": {
+    "Anomaly": 270782,
+    "Normal": 24702
+  },
+  "validation_class_distribution": {
+    "Anomaly": 67696,
+    "Normal": 6176
+  },
+  "test_class_distribution": {
+    "Anomaly": 84620,
+    "Normal": 7720
+  }
+}

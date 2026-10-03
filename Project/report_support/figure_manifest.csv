@@ -1,0 +1,32 @@
+Figure_File,Figure_Title,Generated_By,Report_Section,Description,Include_In_Final_Report
+proposed_system_flow.png,Proposed System Flow,generate_flow_diagram.py,3.1,End-to-end pipeline diagram,True
+class_distribution.png,Class Distribution,02_eda.py,3.5 / 4.1,Normal vs Anomaly row counts,True
+class_percentage.png,Class Percentage,02_eda.py,3.5 / 4.1,Normal vs Anomaly percentages,True
+selected_feature_distributions.png,Feature Distributions,02_eda.py,3.5,Top correlated feature histograms,True
+normal_vs_anomaly_distributions.png,Normal vs Anomaly,02_eda.py,3.5,Class-conditional distributions,True
+selected_boxplots.png,Selected Boxplots,02_eda.py,3.5,Boxplots by Label,True
+correlation_heatmap.png,Correlation Heatmap,02_eda.py,3.5,Correlation among key features + Label,True
+target_feature_relationships.png,Target-Feature Relationships,02_eda.py,3.5,Scatter + correlation bar,True
+feature_ranking.png,Feature Ranking,04_feature_selection_optimization.py,3.6,Combined consensus ranking,True
+feature_count_comparison.png,Feature-Count Comparison,11_final_model_comparison_and_predictions.py,4.2,"Macro-F1 vs feature count, all models",True
+gradient_descent_loss_curves.png,GD Loss Curves,05_gradient_descent_binary_classification.py,3.7,Batch vs Mini-Batch convergence,True
+logistic_confusion_matrix.png,LR Confusion Matrix,06_logistic_regression.py,3.9,Validation confusion matrix,True
+logistic_roc_curve.png,LR ROC Curve,06_logistic_regression.py,3.9,Validation ROC curve,True
+logistic_pr_curve.png,LR PR Curve,06_logistic_regression.py,3.9,Validation PR curve,True
+logistic_coefficient_importance.png,LR Coefficients,06_logistic_regression.py,4.3,Standardized coefficient magnitudes,True
+regularisation_metric_vs_c.png,Regularisation Metric vs C,07_regularisation_ridge_lasso_elasticnet.py,4.3,Macro-F1 vs C by penalty,True
+regularisation_nonzero_vs_c.png,Sparsity vs C,07_regularisation_ridge_lasso_elasticnet.py,4.3,Non-zero coefficients vs C,True
+regularisation_coefficient_paths.png,L1 Coefficient Paths,07_regularisation_ridge_lasso_elasticnet.py,4.3,Coefficient shrinkage paths,True
+rf_confusion_matrix.png,RF Confusion Matrix,08_random_forest.py,3.9,Validation confusion matrix,True
+rf_roc_curve.png,RF ROC Curve,08_random_forest.py,3.9,Validation ROC curve,True
+rf_pr_curve.png,RF PR Curve,08_random_forest.py,3.9,Validation PR curve,True
+rf_feature_importance.png,RF Feature Importance,08_random_forest.py,4.3,Native importance,True
+rf_permutation_importance.png,RF Permutation Importance,08_random_forest.py,4.3,Permutation importance,True
+rf_oob_analysis.png,RF OOB Analysis,08_random_forest.py,3.7,OOB score vs n_estimators,True
+xgb_confusion_matrix.png,XGB Confusion Matrix,09_xgboost.py,3.9,Validation confusion matrix,True
+xgb_roc_curve.png,XGB ROC Curve,09_xgboost.py,3.9,Validation ROC curve,True
+xgb_pr_curve.png,XGB PR Curve,09_xgboost.py,3.9,Validation PR curve,True
+xgb_feature_importance.png,XGB Feature Importance,09_xgboost.py,4.3,Native importance,True
+shap_summary.png,SHAP Summary,10_explainability_shap.py,4.3,SHAP beeswarm (if available),True
+shap_importance.png,SHAP Importance,10_explainability_shap.py,4.3,SHAP mean |impact| bar,True
+final_model_comparison.png,Final Model Comparison,11_final_model_comparison_and_predictions.py,4.2,Test-set Macro-F1 by model,True

@@ -1,0 +1,77 @@
+{
+  "final_test_isolated_early": {
+    "status": "PASS",
+    "evidence": "split_final_test() runs immediately after drop_forbidden_predictors(), before any preprocessing object is fit.",
+    "relevant_script": "03_preprocessing.py"
+  },
+  "imputer_train_only": {
+    "status": "PASS",
+    "evidence": "fit_preprocessing(X_train) fits SimpleImputer on X_train only.",
+    "relevant_script": "03_preprocessing.py / common.py"
+  },
+  "encoder_train_only": {
+    "status": "PASS (no-op, documented)",
+    "evidence": "No categorical predictors exist after exclusions (verified in 01); build_encoder() is a documented no-op rather than silently skipped.",
+    "relevant_script": "03_preprocessing.py"
+  },
+  "scaler_train_only": {
+    "status": "PASS",
+    "evidence": "build_scaler()/fit_preprocessing() fits StandardScaler on X_train only.",
+    "relevant_script": "03_preprocessing.py / common.py"
+  },
+  "feature_ranking_train_only": {
+    "status": "PASS",
+    "evidence": "load_training_data() in 04 loads X_train_tree.csv exclusively; ANOVA/MI/RF/XGB importance all computed on that frame only.",
+    "relevant_script": "04_feature_selection_optimization.py"
+  },
+  "validation_used_for_tuning": {
+    "status": "PASS",
+    "evidence": "run_feature_count_experiments() and tune_*() in 06/08/09 all evaluate on X_val/y_val.",
+    "relevant_script": "06_logistic_regression.py, 08_random_forest.py, 09_xgboost.py"
+  },
+  "test_not_used_for_feature_count_selection": {
+    "status": "PASS",
+    "evidence": "best_k is chosen from feature_count_results (validation-only) in each of 06/08/09, before the test set is ever loaded.",
+    "relevant_script": "06_logistic_regression.py, 08_random_forest.py, 09_xgboost.py"
+  },
+  "test_not_used_for_tuning": {
+    "status": "PASS",
+    "evidence": "tune_*() functions in 06/08/09 take only X_train/y_train/X_val/y_val as arguments; X_test is not loaded until notebook 11.",
+    "relevant_script": "06_logistic_regression.py, 08_random_forest.py, 09_xgboost.py, 11_final_model_comparison_and_predictions.py"
+  },
+  "label_excluded_from_X": {
+    "status": "PASS",
+    "evidence": "drop_forbidden_predictors() drops Label into y, not X.",
+    "relevant_script": "03_preprocessing.py"
+  },
+  "cat_excluded": {
+    "status": "PASS",
+    "evidence": "Cat in ALTERNATE_TARGETS, dropped from X.",
+    "relevant_script": "common.py"
+  },
+  "sub_cat_excluded": {
+    "status": "PASS",
+    "evidence": "Sub_Cat in ALTERNATE_TARGETS, dropped from X.",
+    "relevant_script": "common.py"
+  },
+  "flow_id_excluded": {
+    "status": "PASS",
+    "evidence": "Flow_ID in IDENTIFIER_COLS, dropped from X.",
+    "relevant_script": "common.py"
+  },
+  "src_ip_excluded": {
+    "status": "PASS",
+    "evidence": "Src_IP in IDENTIFIER_COLS, dropped from X.",
+    "relevant_script": "common.py"
+  },
+  "dst_ip_excluded": {
+    "status": "PASS",
+    "evidence": "Dst_IP in IDENTIFIER_COLS, dropped from X.",
+    "relevant_script": "common.py"
+  },
+  "timestamp_excluded": {
+    "status": "PASS",
+    "evidence": "Timestamp in IDENTIFIER_COLS, dropped from X.",
+    "relevant_script": "common.py"
+  }
+}

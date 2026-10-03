@@ -1,0 +1,65 @@
+Artifact,Type,Generated_By,Purpose,Status
+processed_data\X_test_processed.csv,processed_data,pipeline scripts,Leakage-safe train/validation/test matrices,GENERATED
+processed_data\X_test_raw_for_demo.csv,processed_data,pipeline scripts,Leakage-safe train/validation/test matrices,GENERATED
+processed_data\X_test_tree.csv,processed_data,pipeline scripts,Leakage-safe train/validation/test matrices,GENERATED
+processed_data\X_train_processed.csv,processed_data,pipeline scripts,Leakage-safe train/validation/test matrices,GENERATED
+processed_data\X_train_tree.csv,processed_data,pipeline scripts,Leakage-safe train/validation/test matrices,GENERATED
+processed_data\X_validation_processed.csv,processed_data,pipeline scripts,Leakage-safe train/validation/test matrices,GENERATED
+processed_data\X_validation_tree.csv,processed_data,pipeline scripts,Leakage-safe train/validation/test matrices,GENERATED
+processed_data\y_test.csv,processed_data,pipeline scripts,Leakage-safe train/validation/test matrices,GENERATED
+processed_data\y_train.csv,processed_data,pipeline scripts,Leakage-safe train/validation/test matrices,GENERATED
+processed_data\y_validation.csv,processed_data,pipeline scripts,Leakage-safe train/validation/test matrices,GENERATED
+feature_selection\all_selected_features.txt,feature_selection,pipeline scripts,Feature ranking and subsets,GENERATED
+feature_selection\feature_ranking.csv,feature_selection,pipeline scripts,Feature ranking and subsets,GENERATED
+feature_selection\top_10_features.txt,feature_selection,pipeline scripts,Feature ranking and subsets,GENERATED
+feature_selection\top_15_features.txt,feature_selection,pipeline scripts,Feature ranking and subsets,GENERATED
+feature_selection\top_20_features.txt,feature_selection,pipeline scripts,Feature ranking and subsets,GENERATED
+feature_selection\top_30_features.txt,feature_selection,pipeline scripts,Feature ranking and subsets,GENERATED
+models\logistic_regression.joblib,model,pipeline scripts,Frozen fitted models / pipeline,GENERATED
+models\preprocessing_pipeline.joblib,model,pipeline scripts,Frozen fitted models / pipeline,GENERATED
+models\random_forest.joblib,model,pipeline scripts,Frozen fitted models / pipeline,GENERATED
+models\xgboost.joblib,model,pipeline scripts,Frozen fitted models / pipeline,GENERATED
+metrics\dataset_statistics.json,metrics,pipeline scripts,Development and final evaluation metrics,GENERATED
+metrics\feature_count_comparison.csv,metrics,pipeline scripts,Development and final evaluation metrics,GENERATED
+metrics\final_model_comparison.csv,metrics,pipeline scripts,Development and final evaluation metrics,GENERATED
+metrics\final_test_metrics.json,metrics,pipeline scripts,Development and final evaluation metrics,GENERATED
+metrics\gradient_descent_metrics.csv,metrics,pipeline scripts,Development and final evaluation metrics,GENERATED
+metrics\logistic_regression_metrics.csv,metrics,pipeline scripts,Development and final evaluation metrics,GENERATED
+metrics\random_forest_metrics.csv,metrics,pipeline scripts,Development and final evaluation metrics,GENERATED
+metrics\regularisation_metrics.csv,metrics,pipeline scripts,Development and final evaluation metrics,GENERATED
+metrics\xgboost_metrics.csv,metrics,pipeline scripts,Development and final evaluation metrics,GENERATED
+figures\class_distribution.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\class_percentage.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\correlation_heatmap.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\feature_count_comparison.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\feature_ranking.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\final_model_comparison.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\gradient_descent_loss_curves.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\logistic_coefficient_importance.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\logistic_confusion_matrix.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\logistic_pr_curve.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\logistic_roc_curve.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\normal_vs_anomaly_distributions.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\proposed_system_flow.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\regularisation_coefficient_paths.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\regularisation_metric_vs_c.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\regularisation_nonzero_vs_c.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\rf_confusion_matrix.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\rf_feature_importance.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\rf_oob_analysis.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\rf_permutation_importance.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\rf_pr_curve.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\rf_roc_curve.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\selected_boxplots.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\selected_feature_distributions.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\shap_importance.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\shap_summary.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\target_feature_relationships.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\xgb_confusion_matrix.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\xgb_feature_importance.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\xgb_pr_curve.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+figures\xgb_roc_curve.png,figure,pipeline scripts,Report-quality visualizations,GENERATED
+predictions\final_predictions.csv,predictions,pipeline scripts,Final test-set predictions,GENERATED
+README.md,documentation,manual/script,Project overview and reproduction instructions,GENERATED
+requirements.txt,documentation,manual/script,Python dependency list,GENERATED
+PROJECT_PROGRESS.md,documentation,manual/script,Resumable stage-by-stage progress log,GENERATED

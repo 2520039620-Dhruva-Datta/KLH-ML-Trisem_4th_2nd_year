@@ -1,0 +1,12 @@
+Notebook,Purpose,Source_Python_Script,Execution_Status,Major_Outputs
+01_Dataset_Exploration.ipynb,Raw dataset audit and data-quality statistics,01_dataset_exploration.py,EXECUTED,metrics/dataset_statistics.json
+02_EDA.ipynb,Exploratory data analysis,02_eda.py,EXECUTED,7 figures in figures/
+03_Preprocessing.ipynb,Leakage-safe preprocessing pipeline,03_preprocessing.py,EXECUTED,"processed_data/*.csv, models/preprocessing_pipeline.joblib"
+04_Feature_Selection_Optimization.ipynb,Feature ranking and subset creation,04_feature_selection_optimization.py,EXECUTED,feature_selection/*
+05_Gradient_Descent_Binary_Classification.ipynb,From-scratch logistic regression (educational),05_gradient_descent_binary_classification.py,EXECUTED,metrics/gradient_descent_metrics.csv
+06_Logistic_Regression.ipynb,Main linear candidate model,06_logistic_regression.py,EXECUTED,"models/logistic_regression.joblib, metrics/logistic_regression_metrics.csv"
+07_Regularisation_Ridge_Lasso_ElasticNet.ipynb,L1/L2/ElasticNet sparsity study,07_regularisation_ridge_lasso_elasticnet.py,EXECUTED,metrics/regularisation_metrics.csv
+08_Random_Forest.ipynb,Main ensemble candidate model,08_random_forest.py,EXECUTED,"models/random_forest.joblib, metrics/random_forest_metrics.csv"
+09_XGBoost.ipynb,Main gradient-boosted candidate model,09_xgboost.py,EXECUTED,"models/xgboost.joblib, metrics/xgboost_metrics.csv"
+10_Explainability_SHAP.ipynb,SHAP explainability for the strongest candidate,10_explainability_shap.py,EXECUTED,"figures/shap_*.png (if SHAP available), report_support/explainability_summary.json"
+11_Final_Model_Comparison_and_Predictions.ipynb,Single final test-set evaluation,11_final_model_comparison_and_predictions.py,EXECUTED,"metrics/final_model_comparison.csv, metrics/final_test_metrics.json, predictions/final_predictions.csv"

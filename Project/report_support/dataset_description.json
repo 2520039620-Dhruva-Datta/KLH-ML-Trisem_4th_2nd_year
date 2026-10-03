@@ -1,0 +1,48 @@
+{
+  "dataset_name": "IoTID20 / IoT Network Intrusion Dataset",
+  "dataset_relative_path": "data/Final IoT Network Intrusion Dataset.csv",
+  "dataset_source": "https://sites.google.com/view/iot-network-intrusion-dataset/home",
+  "dataset_paper": "I. Ullah and Q. H. Mahmoud, \"A Scheme for Generating a Dataset for Anomalous Activity Detection in IoT Networks,\" DOI: 10.1007/978-3-030-47358-7_52",
+  "raw_rows": 625783,
+  "raw_columns": 86,
+  "cleaned_rows": 461696,
+  "cleaned_columns": 86,
+  "duplicates": 164087,
+  "target_name": "Label",
+  "target_classes": [
+    "Normal",
+    "Anomaly"
+  ],
+  "target_mapping": {
+    "Normal": 0,
+    "Anomaly": 1
+  },
+  "normal_count": 40073,
+  "anomaly_count": 585710,
+  "normal_percentage": 6.4037,
+  "anomaly_percentage": 93.5963,
+  "numeric_feature_count": 78,
+  "categorical_feature_count": 0,
+  "usable_predictor_count": 79,
+  "excluded_predictors": [
+    "Label",
+    "Cat",
+    "Sub_Cat",
+    "Flow_ID",
+    "Src_IP",
+    "Dst_IP",
+    "Timestamp"
+  ],
+  "missing_value_summary": {
+    "ordinary_missing_values": 0,
+    "infinite_values_raw": 736,
+    "malformed_value_columns": {
+      "Dst_Port": {
+        "dtype_before": "str",
+        "malformed_values": [
+          "19 00"
+        ]
+      }
+    }
+  }
+}

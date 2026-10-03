@@ -1,0 +1,42 @@
+[
+  {
+    "S_No": 1,
+    "citation": "Kouassi, B.M.; Ballo, A.B.; Ayikpa, K.J.; Mamadou, D.; Coulibaly, M.Z.J. (2025). Top-K Feature Selection for IoT Intrusion Detection: Contributions of XGBoost, LightGBM, and Random Forest. Future Internet, 17(11), 529. https://doi.org/10.3390/fi17110529"
+  },
+  {
+    "S_No": 2,
+    "citation": "Almotairi, A.; Atawneh, S.; Khashan, O.A.; Khafajah, N.M. (2024). Enhancing intrusion detection in IoT networks using machine learning-based feature selection and ensemble models. Systems Science & Control Engineering, 12(1), 2321381. https://doi.org/10.1080/21642583.2024.2321381"
+  },
+  {
+    "S_No": 3,
+    "citation": "Zhang, D.; Huang, D.; Chen, Y.; Lin, S.; Li, C. (2025). A lightweight IoT intrusion detection method based on two-stage feature selection and Bayesian optimization. AIMS Electronics and Electrical Engineering, 9(3), 359-389. https://doi.org/10.3934/electreng.2025017"
+  },
+  {
+    "S_No": 4,
+    "citation": "Dong, J.; Chen, H.; Shen, S.; Xu, H.; Liu, Z. (2026). Interpretable intrusion detection for IoT security: A SHAP-enhanced NGBoost model. Computer Networks, 275(C), 111937. https://doi.org/10.1016/j.comnet.2025.111937"
+  },
+  {
+    "S_No": 5,
+    "citation": "Bin hulayyil, S.; Li, S.; Saxena, N. (2025). Explainable AI-based intrusion detection in IoT systems. Internet of Things, 31(-), 101589. https://doi.org/10.1016/j.iot.2025.101589"
+  },
+  {
+    "S_No": 6,
+    "citation": "Varol, M.; Karakaya, A. (2026). Explainable AI-Based Intrusion Detection Systems for IoT Environments: A Systematic Literature Review. Sensors, 26(18), 5744. https://doi.org/10.3390/s26185744"
+  },
+  {
+    "S_No": 7,
+    "citation": "Kaushik, S.; Bhardwaj, A.; Almogren, A.; Bharany, S.; Altameem, A.; Ur Rehman, A.; Hussen, S.; Hamam, H. (2025). Robust machine learning based Intrusion detection system using simple statistical techniques in feature selection. Scientific Reports, 15(1), 3970. https://doi.org/10.1038/s41598-025-88286-9"
+  },
+  {
+    "S_No": 8,
+    "citation": "Alfahaid, A.; Alalwany, E.; Almars, A.M.; Alharbi, F.; Atlam, E.; Mahgoub, I. (2025). Machine Learning-Based Security Solutions for IoT Networks: A Comprehensive Survey. Sensors, 25(11), 3341. https://doi.org/10.3390/s25113341"
+  },
+  {
+    "S_No": 9,
+    "citation": "Hu, Y.; Xiao, K.; Luo, L.; Chen, L. (2026). An XGBoost-Based Intrusion Detection Framework with Interpretability Analysis for IoT Networks. Applied Sciences, 16(2), 980. https://doi.org/10.3390/app16020980"
+  },
+  {
+    "S_No": 10,
+    "citation": "Badhan, P.K. (2026). Neuro-symbolic machine learning for lightweight and interpretable IoT edge intrusion detection. Discover Sensors, 2(1), Article 15. https://doi.org/10.1007/s44397-026-00047-z"
+  }
+]

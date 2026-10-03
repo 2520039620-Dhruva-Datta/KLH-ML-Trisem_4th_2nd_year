@@ -1,0 +1,15 @@
+Dst_Port
+Src_Port
+ACK_Flag_Cnt
+Flow_Duration
+Bwd_IAT_Std
+Init_Bwd_Win_Byts
+Flow_Pkts/s
+Flow_IAT_Max
+Idle_Mean
+Flow_IAT_Mean
+Idle_Max
+Fwd_Pkt_Len_Max
+Bwd_Pkts/s
+Fwd_Pkt_Len_Mean
+Bwd_Header_Len

@@ -1,0 +1,23 @@
+{
+  "os": "Windows 11 (10.0.26200)",
+  "python_version": "3.14.4",
+  "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "ram": "Not detected - not queried (no OS-level RAM query performed in this script)",
+  "gpu": "Not detected - no GPU-accelerated library invoked; all models trained on CPU",
+  "ide_environment": "Jupyter (nbconvert-executed .ipynb, built from cell-marked .py scripts), VS Code / Claude Code as the driving terminal",
+  "jupyter_version": "See nbconvert/nbformat versions",
+  "nbconvert_version": "7.17.1",
+  "nbformat_version": "5.11.1",
+  "pandas_version": "3.0.5",
+  "numpy_version": "2.5.2",
+  "scikit_learn_version": "1.9.0",
+  "xgboost_version": "3.4.1",
+  "shap_version": "0.52.0",
+  "matplotlib_version": "3.11.1",
+  "seaborn_version": "0.13.2",
+  "joblib_version": "1.5.3",
+  "random_state": 42,
+  "train_rows": 295484,
+  "validation_rows": 73872,
+  "test_rows": 92340
+}
